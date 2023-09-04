@@ -10,7 +10,7 @@ class Program
 
         GpsUnit gpsUnit = new GpsUnit()
         {
-            ID = 1,
+            ID = 2,
             Name = "Banan",
             Active = true,
             Latitude = 37.7749,
@@ -29,7 +29,7 @@ class Program
 
 
     /* 
-        "ID": 1,
+        "ID": 2,
         "Name":"banan",
         "Latitude ": 37.7749,
         "Longitude": -122.4194,

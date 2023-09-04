@@ -1,9 +1,5 @@
-﻿using RepositoryPattern_OralPresentation.DAL;
-using RepositoryPattern_OralPresentation.IRepositories;
-using RepositoryPattern_OralPresentation.Models;
+﻿using RepositoryPattern_OralPresentation.Models;
 using RepositoryPattern_OralPresentation.Repositories;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
 
 class Program
 {

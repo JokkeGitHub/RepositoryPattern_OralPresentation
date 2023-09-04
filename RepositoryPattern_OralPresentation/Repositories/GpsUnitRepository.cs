@@ -11,13 +11,11 @@ namespace RepositoryPattern_OralPresentation.Repositories
         public IEnumerable<GpsUnit> GetAll()
         {
             throw new NotImplementedException();
-            //return _gpsContext.GPSUnits;
         }
 
         public GpsUnit GetById(int id)
         {
             throw new NotImplementedException();
-            //return _gpsContext.GPSUnits.Find(id);
         }
 
         public void Insert(GpsUnit gpsUnit)
@@ -28,15 +26,11 @@ namespace RepositoryPattern_OralPresentation.Repositories
         public void Update(GpsUnit gpsUnit)
         {
             throw new NotImplementedException();
-            //_gpsContext.Entry(gpsUnit).State = EntityState.Modified;
         }
 
         public void DeleteById(int id)
         {
-
             throw new NotImplementedException();
-            //GpsUnit gpsUnit = _gpsContext.GPSUnits.Find(id);
-            //_gpsContext.GPSUnits.Remove(gpsUnit);
         }        
     }
 }

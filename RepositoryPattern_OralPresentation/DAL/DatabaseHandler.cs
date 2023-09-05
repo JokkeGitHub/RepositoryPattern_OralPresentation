@@ -6,7 +6,20 @@ namespace RepositoryPattern_OralPresentation.DAL
 {
     public class DatabaseHandler
     {
+        public void Insert(GpsUnit gpsUnit)
+        {
+            FileJsonGpsUnitInsert file = new FileJsonGpsUnitInsert();
+            file.Insert(gpsUnit);
+            
+            MssqlGpsUnitInsert mssql = new MssqlGpsUnitInsert();
+            mssql.Insert(gpsUnit);
+        }
 
+        public void DeleteById(int id)
+        {
+            MssqlGpsUnitDelteById mss = new MssqlGpsUnitDelteById();
+            mss.DeleteById(id);
+        }
     }
 }
 

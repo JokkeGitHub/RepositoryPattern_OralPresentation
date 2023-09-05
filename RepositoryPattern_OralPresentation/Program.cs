@@ -19,11 +19,20 @@ class Program
             Timestamp = DateTime.Now
         };
 
-        PostToDatabase(gpsUnit);
+        SendToDatabase(gpsUnit);
+        Console.ReadLine();
 
-        void PostToDatabase(GpsUnit gpsUnit)
+        DeleteFromDatabase(gpsUnit.ID);
+        Console.ReadLine();
+
+        void SendToDatabase(GpsUnit gpsUnit)
         {
             gpsUnitRepository.Insert(gpsUnit);
+        }
+
+        void DeleteFromDatabase(int id)
+        {
+            gpsUnitRepository.DeleteById(id);
         }
     }
 

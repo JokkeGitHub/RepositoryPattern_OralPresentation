@@ -14,5 +14,11 @@ namespace RepositoryPattern_OralPresentation.DAL
             FileJsonGpsUnitInsert fileJsonGpsUnit = new FileJsonGpsUnitInsert();
             fileJsonGpsUnit.Insert(gpsUnit);
         }
+
+        public void DeleteById(int id)
+        {
+            MssqlGpsUnitDelteById mssqGpsUnitDeleteById = new MssqlGpsUnitDelteById();
+            mssqGpsUnitDeleteById.DeleteById(id);
+        }
     }
 }

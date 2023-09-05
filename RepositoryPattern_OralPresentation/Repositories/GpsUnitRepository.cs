@@ -30,7 +30,7 @@ namespace RepositoryPattern_OralPresentation.Repositories
 
         public void DeleteById(int id)
         {
-            throw new NotImplementedException();
+            _databaseHandler.DeleteById(id);
         }        
     }
 }

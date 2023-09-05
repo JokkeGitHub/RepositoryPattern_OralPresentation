@@ -6,7 +6,6 @@ class Program
 
     static void Main(string[] args)
     {
-        //GpsUnitRepository gpsUnitRepository = new GpsUnitRepository();
 
         GpsUnit gpsUnit = new GpsUnit()
         {
@@ -19,20 +18,18 @@ class Program
             Timestamp = DateTime.Now
         };
 
-        SendToDatabase(gpsUnit);
+        InsertToDatabase(gpsUnit);
         Console.ReadLine();
 
         DeleteFromDatabase(gpsUnit.ID);
         Console.ReadLine();
 
-        void SendToDatabase(GpsUnit gpsUnit)
+        void InsertToDatabase(GpsUnit gpsUnit)
         {
-            //gpsUnitRepository.Insert(gpsUnit);
         }
 
         void DeleteFromDatabase(int id)
         {
-            //gpsUnitRepository.DeleteById(id);
         }
     }
 
@@ -45,5 +42,13 @@ class Program
         "TimeStamp": "2023-08-11T15:30:00Z",
         "Active": true,
         "Altitude": 1500
+
+    
+        //GpsUnitRepository gpsUnitRepository = new GpsUnitRepository();
+    
+            //gpsUnitRepository.Insert(gpsUnit);
+
+    
+            //gpsUnitRepository.DeleteById(id);
      */
 }

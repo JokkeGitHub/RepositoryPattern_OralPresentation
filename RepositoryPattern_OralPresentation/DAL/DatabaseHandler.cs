@@ -12,7 +12,10 @@ namespace RepositoryPattern_OralPresentation.DAL
 
 
 
+
+
 /*
+ * ins
   MssqlGpsUnitInsert mssqlGpsUnitInsert = new MssqlGpsUnitInsert();
   mssqlGpsUnitInsert.Insert(gpsUnit);
 
@@ -21,7 +24,7 @@ namespace RepositoryPattern_OralPresentation.DAL
 
 
 
-
+  del
   MssqlGpsUnitDelteById mssqGpsUnitDeleteById = new MssqlGpsUnitDelteById();
   mssqGpsUnitDeleteById.DeleteById(id);
  */

@@ -6,7 +6,7 @@ class Program
 
     static void Main(string[] args)
     {
-        GpsUnitRepository gpsUnitRepository = new GpsUnitRepository();
+        //GpsUnitRepository gpsUnitRepository = new GpsUnitRepository();
 
         GpsUnit gpsUnit = new GpsUnit()
         {
@@ -27,12 +27,12 @@ class Program
 
         void SendToDatabase(GpsUnit gpsUnit)
         {
-            gpsUnitRepository.Insert(gpsUnit);
+            //gpsUnitRepository.Insert(gpsUnit);
         }
 
         void DeleteFromDatabase(int id)
         {
-            gpsUnitRepository.DeleteById(id);
+            //gpsUnitRepository.DeleteById(id);
         }
     }
 

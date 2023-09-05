@@ -35,15 +35,4 @@ class Program
             gpsUnitRepository.DeleteById(id);
         }
     }
-
-
-    /* 
-        "ID": 2,
-        "Name":"banan",
-        "Latitude ": 37.7749,
-        "Longitude": -122.4194,
-        "TimeStamp": "2023-08-11T15:30:00Z",
-        "Active": true,
-        "Altitude": 1500
-     */
 }
